@@ -1,0 +1,45 @@
+/* YOUR CUSTOM STYLES */
+
+ul.bestsellers-card{
+      padding: 0px;
+      display: inline-flex;
+      width: 100%;
+      list-style: none;
+}
+
+ul.bestsellers-card > li{
+      width: 50%;
+      background: gray;
+      padding: 2px;
+}
+
+.card-block > ul{
+  padding: 0px;
+  list-style-type: none;
+}
+
+.no-margin{
+  margin: 0px;
+}
+
+.card-muted-title{
+  font-size: 0.8em;
+  text-transform: uppercase;
+  opacity: 0.4;
+}
+
+ul.bestsellers-card-dimensions > li:first-child{
+  padding-right: 5%;
+}
+ul.bestsellers-card-info > li:nth-child(2){
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+ul.bestsellers-card-dimensions > li:last-child{
+  padding-left: 22%;
+}
+
+.bestsellers-card-info > li {
+  margin-bottom: 2%;
+}
