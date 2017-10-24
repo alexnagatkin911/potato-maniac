@@ -1727,7 +1727,11 @@ p.description {
   font-size: 1.14em; }
 
 .title {
-  font-weight: 700; }
+  font-size: 40px;
+  line-height: 1.11119;
+  font-weight: 600;
+  letter-spacing: .002em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; }
 .title.title-up {
   text-transform: uppercase; }
 .title.title-up a {
@@ -1737,8 +1741,11 @@ p.description {
   margin-top: -25px; }
 
 .description, .card-description, .footer-big p {
-  color: #9A9A9A;
-  font-weight: 300; }
+  font-size: 21px;
+  line-height: 1.38105;
+  font-weight: 400;
+  letter-spacing: .011em;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; }
 
 .category {
   text-transform: uppercase;
@@ -3971,3 +3978,19 @@ Created using IcoMoon - icomoon.io
   .section-images .hero-images-container-2 {
     top: 66%;
     right: 14%; } }
+
+
+    .page-header .content-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 2;
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0 15px;
+        width: 100%;
+        max-width: 880px;
+    }

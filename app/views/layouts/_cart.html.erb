@@ -1,1 +1,7 @@
-<%= link_to "#{current_order.order_items.size} items in card and price #{current_order.subtotal}", carts_path %>
+
+
+<a href="/carts" class="nav-links">
+  <span class="badge badge-default"><%="#{current_order.order_items.size}" %></span>items
+  <span class="badge badge-default"> $ <%=  "#{current_order.subtotal}" %></span>
+  <i class="fa fa-opencart" aria-hidden="true"></i>
+</a>

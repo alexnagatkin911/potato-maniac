@@ -11,6 +11,9 @@
   </head>
 
   <body>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+    </style>
     <!-- Navbar Start -->
     <!-- Navbar Start -->
     <nav class="navbar navbar-toggleable-md bg-primary fixed-top navbar-transparent " color-on-scroll="500">
@@ -40,6 +43,20 @@
                     </button>
                     <%= link_to "2150 Times", root_path, :class => "navbar-brand" %>
                 </div>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <%= render '/layouts/cart' %>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                  </li> -->
+                </ul>
                 <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="http://demos.creative-tim.com/now-ui-kit/assets/img/blurred-image-1.jpg">
 
                     <ul class="navbar-nav">
@@ -80,28 +97,6 @@
     <!-- Nav Bar End -->
 
 
-        <div class="page-header clear-filter" filter-color="orange">
-            <div class="page-header-image" data-parallax="true" style="background-image: url('http://wallpapercave.com/wp/3xjL9LP.jpg');">
-            </div>
-            <div class="container">
-                <div class="content-center brand">
-                    <img class="n-logo" src="http://demos.creative-tim.com/now-ui-kit/assets/img/now-logo.png" alt="">
-                    <h1 class="h1-seo">Web Marketing.</h1>
-                    <ul class="header-service-list">
-                      <li>
-                        BRANDING
-                      </li>
-                      <li>
-                        MARKETING
-                      </li>
-                      <li>
-                        DEVELOPMENT
-                      </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
   <div class="wrapper">
     <%= yield %>
   </div>
@@ -125,9 +120,9 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="">
-          Copyright 2017. All rights reserved
+          <div class="text-center">
+            Copyright 2017. All rights reserved
+          </div>
         </div>
   </footer>
   </body>
